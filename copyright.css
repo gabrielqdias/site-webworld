@@ -1,0 +1,39 @@
+#copyright {
+    background-color: #262625;
+}
+
+
+#copyright .conteudo {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    position: relative;
+}
+
+
+#copyright p {
+    display: inline;
+    margin-left: 20px;
+    vertical-align: sub;
+}
+
+
+#copyright p::before {
+    content: "©";
+    padding-right: 5px;
+}
+
+
+ul.copyright-redessociais {
+    display: inline;
+    position: absolute;
+    right: 65px;
+}
+
+
+#copyright li {
+    display: inline;
+    padding: 0px 10px;
+    vertical-align: top;
+}

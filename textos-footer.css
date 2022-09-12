@@ -1,0 +1,95 @@
+footer {
+    background-color: #4f5051;
+    color: #c0c0c0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#textos-footer {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+#textos-footer ul {
+    margin-left: 28px;
+}
+
+
+#textos-footer li {
+    display: inline-block;
+    padding: 30px 0px 60px 0px;
+    vertical-align: top;
+    margin-right: 5%;
+}
+
+
+#textos-footer strong {
+    font-size: 1.3em;
+    color: white;
+    font-weight: normal;
+}
+
+
+#textos-footer h2 {
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+
+#textos-footer p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+#textos-footer hr {
+    border: 1px solid #5c5c5c;
+    margin: 25px 0px;
+    width: 110%;
+}
+
+
+#textos-footer p.date-time {
+    padding-top: 10px;
+}
+
+
+.date-time::before {
+    content: url(imagens/datetime.png);
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+
+.local {
+    padding-top: 20px;
+}
+
+
+.email, .telefone {
+    padding-top: 5px;
+}
+
+
+.local::before {
+    content: url(imagens/map.png);
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+
+.email::before {
+    content: url(imagens/email.png);
+    vertical-align: middle;
+    padding-right: 13px;
+}
+
+
+.telefone::before {
+    content: url(imagens/tel.png);
+    vertical-align: middle;
+    padding-right: 17px;
+}

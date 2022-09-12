@@ -1,0 +1,120 @@
+@media screen and (max-width: 480px) {
+    div.logo h1 {
+        padding-left: 25px;
+    }
+
+    ul.redes-sociais {
+        padding-right: 25px;
+    }
+
+    div.header-2 {
+        padding: 15px 0px;
+    }  
+
+    nav {
+        min-width: 300px;
+    }
+
+    ul.menu {
+        margin: 0px 4.5%;
+    }
+
+    ul.menu > li {
+        display: inline-block;
+        padding: 10px 10px;
+    }
+
+    ul.menu > li:first-child {
+        padding-left: 10px;
+    }
+
+
+    /* SECTION TRIO DE IMAGENS */
+    section#trio_imagens > p {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+
+    
+    /* SECTION 1 */
+    .colunas {
+        margin-bottom: 0px;
+    }
+
+    section#trio_imagens {
+        min-width: 300px;
+    }
+
+    #imagem-centro {
+        position: static;
+    }
+
+    .colunas li {
+        display: block;
+        width: 100%;
+    }
+
+
+    /* SECTION 2 */
+    .bloco-imagens-textos {
+        margin-top: 0px;
+    }
+
+    ul.imagens-textos {
+        padding: 0;
+        margin: 5% 3%;
+    }
+
+    ul.imagens-textos li {
+        display: block;
+        width: 50%;
+        padding-bottom: 30px;
+    }
+    
+
+
+    /* LOGOS */
+    section#logos {
+        min-width: 300px;
+    }
+
+    section#logos img {
+        margin: 20% auto;
+        display: block;
+        width: 70%;
+        padding: 0;
+    }
+
+    section#logos img:nth-child(4) {
+        margin-bottom: 20%;
+    }
+    
+
+    /* FOOTER */
+    #textos-footer hr {
+        width: 40%;
+    }
+
+    #textos-footer li {
+        display: block;
+    }
+
+
+    #copyright .conteudo {
+        min-width: 300px;
+        padding: 20px;
+    }
+
+
+    ul.copyright-redessociais {
+       display: none;
+    }
+    
+
+    #copyright p {
+        display: block;
+        width: 300px;
+        line-height: 17px;
+    }
+}

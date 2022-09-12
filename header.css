@@ -1,0 +1,61 @@
+header {
+    background-color: #252323;
+}
+
+div.logo {
+    min-width: 300px;
+    max-width: 1200px;
+    height: 141.400;
+    margin: auto;
+    position: relative;
+    padding: 15px 0px;
+}
+
+ul.redes-sociais {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+
+ul.redes-sociais > li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+
+ul.redes-sociais > li:last-child {
+    padding: 0px;
+}
+
+
+div.header-2 {
+    background-color: white;
+    padding: 35px 0px;
+}
+
+
+nav {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+
+ul.menu > li {
+    display: inline;
+    padding: 0px 15px;
+}
+
+ul.menu > li:first-child {
+    padding-left: 0px;
+}
+
+ul.menu a {
+    font-family: sans-serif;
+    color: #8b8b8b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}

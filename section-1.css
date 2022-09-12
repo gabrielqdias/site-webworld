@@ -1,0 +1,58 @@
+section#trio_imagens {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+section#trio_imagens > h2 {
+    padding: 40px 0px 25px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #818181;
+    text-align: center;
+}
+
+
+section#trio_imagens > p {
+    text-align: center;
+    color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+strong {
+    font-weight: bold;
+    color: #646464;
+}
+
+
+.colunas li {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    padding: 40px 0px;
+}
+
+
+.colunas li h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #818181;
+    padding: 20px 0px;
+}
+
+
+.colunas li p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+    font-size: 14.3px;
+}
+
+
+#imagem-centro {
+    position: relative;
+    top: 60px;
+}
