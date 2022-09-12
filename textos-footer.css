@@ -6,7 +6,6 @@ footer {
 
 
 #textos-footer {
-    min-width: 600px;
     max-width: 1200px;
     margin: auto;
 }
@@ -22,6 +21,10 @@ footer {
     padding: 30px 0px 60px 0px;
     vertical-align: top;
     margin-right: 5%;
+}
+
+#textos-footer:first-child {
+    padding-left: 26px;
 }
 
 
@@ -40,7 +43,7 @@ footer {
 
 
 #textos-footer p {
-    font-size: 15px;
+    font-size: 14.5px;
     line-height: 22px;
 }
 

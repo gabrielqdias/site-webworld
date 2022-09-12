@@ -22,18 +22,18 @@
 
 
 ul.imagens-textos {
-    min-width: 600px;
     max-width: 1200px;
     margin: auto;
     padding: 40px 0px;
+    
 }
 
 
 ul.imagens-textos li {
     display: inline-block;
     vertical-align: top;
-    width: 27%;
-    margin: 0px 3%;
+    width: 21%;
+    margin: 0px 5%;
     transition: 0.5s;
 }
 
