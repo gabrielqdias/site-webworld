@@ -43,16 +43,16 @@ nav {
 }
 
 
-ul.menu > li {
+ul.menu-navegacao > li {
     display: inline;
     padding: 0px 15px;
 }
 
-ul.menu > li:first-child {
+ul.menu-navegacao > li:first-child {
     padding-left: 0px;
 }
 
-ul.menu a {
+ul.menu-navegacao a {
     font-family: sans-serif;
     color: #8b8b8b;
     text-decoration: none;
