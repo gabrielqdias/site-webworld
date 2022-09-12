@@ -16,16 +16,16 @@
         min-width: 300px;
     }
 
-    ul.menu {
+    ul.menu-navegacao {
         margin: 0px 4.5%;
     }
 
-    ul.menu > li {
+    ul.menu-navegacao > li {
         display: inline-block;
         padding: 10px 10px;
     }
 
-    ul.menu > li:first-child {
+    ul.menu-navegacao > li:first-child {
         padding-left: 10px;
     }
 
@@ -65,7 +65,7 @@
 
     ul.imagens-textos {
         padding: 0;
-        margin: 5% 3%;
+        margin: 5% 4%;
     }
 
     ul.imagens-textos li {
